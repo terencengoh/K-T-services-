@@ -26,4 +26,6 @@ The site is ready to publish from the repository root. In the GitHub repo, enabl
 
 After the first contact-form submission, FormSubmit sends a one-time activation email to `terencenjeck52@gmail.com`. Confirm that email or submissions will not be delivered. A mailto fallback is also on the contact page.
 
-If you later want the form to return visitors to this site, add a hidden `_next` field on the contact form pointing to the live `thank-you.html` URL.
+The form’s hidden `_next` field returns visitors to `https://terencengoh.github.io/k-and-t-services/thank-you.html`.
+
+`sitemap.xml` lists the public pages. `robots.txt` points at that sitemap. On this GitHub Pages project site, that file is served at `https://terencengoh.github.io/k-and-t-services/robots.txt`, not at the domain root (`https://terencengoh.github.io/robots.txt`). Google only reads a host’s root `robots.txt`, so submit the sitemap URL directly in Google Search Console.
