@@ -1,0 +1,9 @@
+# This file is published with the GitHub Pages project site at
+# https://terencengoh.github.io/k-and-t-services/robots.txt
+# It is not the host-root robots.txt (https://terencengoh.github.io/robots.txt).
+# Google reads robots.txt only from the host root, so submit the sitemap
+# URL directly in Google Search Console.
+User-agent: *
+Allow: /
+
+Sitemap: https://terencengoh.github.io/k-and-t-services/sitemap.xml
